@@ -1,0 +1,265 @@
+[
+  {
+    "event_id": "evt_f_001",
+    "typ": "Formular",
+    "person": "Anna Keller",
+    "firma": "Müller IT GmbH",
+    "deal": "Müller IT – Pilot",
+    "updates": {
+      "firma": {
+        "branche": "IT-Dienstleistung",
+        "ausschreibungen_pro_jahr": 40
+      },
+      "deal": {
+        "sprint": "Sprint 46"
+      }
+    },
+    "status": "auto",
+    "grund": "Firma über Domain doppelt, bekannte Person entscheidet; Person über Mail; offener Deal"
+  },
+  {
+    "event_id": "evt_c_001",
+    "typ": "Call",
+    "person": "Tobias Weber",
+    "firma": "Weber Elektrotechnik AG",
+    "deal": "Weber Elektro – Testphase",
+    "updates": {},
+    "status": "auto",
+    "grund": "Person über Nummer; offener Deal"
+  },
+  {
+    "event_id": "evt_f_002",
+    "typ": "Formular",
+    "person": "-",
+    "firma": "-",
+    "deal": "-",
+    "updates": {},
+    "status": "pruefen",
+    "grund": "Domain mueller-it.de + Name: 2 Firmen möglich (Müller IT GmbH / Müller IT-Systeme GmbH & Co. KG)"
+  },
+  {
+    "event_id": "evt_c_002",
+    "typ": "Call",
+    "person": "Sarah Lindner",
+    "firma": "Weber Elektrotechnik AG",
+    "deal": "Weber Elektro – Testphase",
+    "updates": {},
+    "status": "auto",
+    "grund": "weiterverbunden, Person über verbundene Nr.; offener Deal"
+  },
+  {
+    "event_id": "evt_f_003",
+    "typ": "Formular",
+    "person": "Miriam Hoffmann",
+    "firma": "Hoffmann Facility Services GmbH",
+    "deal": "Hoffmann FS – Rollout Nord",
+    "updates": {
+      "firma": {
+        "branche": "Facility Management",
+        "ausschreibungen_pro_jahr": 120
+      },
+      "deal": {
+        "sprint": "Sprint 46"
+      }
+    },
+    "status": "auto",
+    "grund": "Firma über Domain hoffmann-fs.de; Person über Mail; offener Deal"
+  },
+  {
+    "event_id": "evt_c_003",
+    "typ": "Call",
+    "person": "Jonas Brandt",
+    "firma": "Müller IT-Systeme GmbH & Co. KG",
+    "deal": "Neuer Deal Müller IT-Systeme GmbH & Co. KG (Vorschlag)",
+    "updates": {},
+    "status": "auto",
+    "grund": "weiterverbunden, Person über verbundene Nr.; kein offener Deal -> neu"
+  },
+  {
+    "event_id": "evt_f_004",
+    "typ": "Formular",
+    "person": "neu: k.otto@weber-elektro.de",
+    "firma": "Weber Elektrotechnik AG",
+    "deal": "Weber Elektro – Testphase",
+    "updates": {
+      "firma": {
+        "branche": "Elektrotechnik",
+        "ausschreibungen_pro_jahr": 60
+      },
+      "deal": {
+        "sprint": "Sprint 47"
+      }
+    },
+    "status": "auto",
+    "grund": "Firma über Domain weber-elektro.de; neue Person; offener Deal"
+  },
+  {
+    "event_id": "evt_c_004",
+    "typ": "Call",
+    "person": "Lars Vogel",
+    "firma": "Bau Schmidt GmbH",
+    "deal": "Expansion Bau Schmidt GmbH (Vorschlag)",
+    "updates": {},
+    "status": "auto",
+    "grund": "weiterverbunden, Person über verbundene Nr.; Kunde -> Expansion"
+  },
+  {
+    "event_id": "evt_f_005",
+    "typ": "Formular",
+    "person": "Petra Schmidt",
+    "firma": "Bau Schmidt GmbH",
+    "deal": "Expansion Bau Schmidt GmbH (Vorschlag)",
+    "updates": {
+      "firma": {
+        "branche": "Bau",
+        "ausschreibungen_pro_jahr": 200
+      },
+      "deal": {
+        "sprint": "Sprint 48"
+      }
+    },
+    "status": "auto",
+    "grund": "Firma über Domain bauschmidt.de; Person über Mail; Kunde -> Expansion"
+  },
+  {
+    "event_id": "evt_c_005",
+    "typ": "Call",
+    "person": "Miriam Hoffmann",
+    "firma": "Hoffmann Facility Services GmbH",
+    "deal": "Hoffmann FS – Rollout Nord",
+    "updates": {},
+    "status": "auto",
+    "grund": "Person über Nummer; offener Deal"
+  },
+  {
+    "event_id": "evt_f_006",
+    "typ": "Formular",
+    "person": "neu: felix.kraus84@gmail.com",
+    "firma": "Kraus Tiefbau GmbH",
+    "deal": "Neuer Deal Kraus Tiefbau GmbH (Vorschlag)",
+    "updates": {
+      "firma": {
+        "branche": "Tiefbau",
+        "ausschreibungen_pro_jahr": 35
+      },
+      "deal": {
+        "sprint": "Sprint 47"
+      }
+    },
+    "status": "auto",
+    "grund": "Firma über Name \"kraus tiefbau\"; neue Person; kein offener Deal -> neu"
+  },
+  {
+    "event_id": "evt_c_006",
+    "typ": "Call",
+    "person": "Felix Kraus",
+    "firma": "Kraus Tiefbau GmbH",
+    "deal": "Neuer Deal Kraus Tiefbau GmbH (Vorschlag)",
+    "updates": {},
+    "status": "auto",
+    "grund": "Person über Nummer; kein offener Deal -> neu"
+  },
+  {
+    "event_id": "evt_f_007",
+    "typ": "Formular",
+    "person": "Nina Berg",
+    "firma": "Nordlicht Gebäudetechnik GmbH",
+    "deal": "Nordlicht – Ausschreibungsteam",
+    "updates": {
+      "firma": {
+        "branche": "Gebäudetechnik",
+        "ausschreibungen_pro_jahr": 80
+      },
+      "deal": {
+        "sprint": "Sprint 46"
+      }
+    },
+    "status": "auto",
+    "grund": "Firma über Domain nordlicht-gt.de; Person über Mail; offener Deal"
+  },
+  {
+    "event_id": "evt_f_007",
+    "typ": "-",
+    "person": "-",
+    "firma": "-",
+    "deal": "-",
+    "status": "skip",
+    "grund": "doppelte event_id, übersprungen"
+  },
+  {
+    "event_id": "evt_c_007",
+    "typ": "Call",
+    "person": "Nina Berg",
+    "firma": "Nordlicht Gebäudetechnik GmbH",
+    "deal": "Nordlicht – Ausschreibungsteam",
+    "updates": {},
+    "status": "auto",
+    "grund": "Person über Nummer; offener Deal"
+  },
+  {
+    "event_id": "evt_f_008",
+    "typ": "Formular",
+    "person": "Deniz Aydin",
+    "firma": "Becker Reinigung GmbH",
+    "deal": "Neuer Deal Becker Reinigung GmbH (Vorschlag)",
+    "updates": {
+      "firma": {
+        "branche": "Gebäudereinigung",
+        "ausschreibungen_pro_jahr": 15
+      },
+      "deal": {
+        "sprint": "Sprint 48"
+      }
+    },
+    "status": "auto",
+    "grund": "Firma über Domain becker-reinigung.de; Person über Mail; kein offener Deal -> neu"
+  },
+  {
+    "event_id": "evt_c_008",
+    "typ": "Call",
+    "person": "Deniz Aydin",
+    "firma": "Becker Reinigung GmbH",
+    "deal": "Neuer Deal Becker Reinigung GmbH (Vorschlag)",
+    "updates": {},
+    "status": "auto",
+    "grund": "Person über Nummer; kein offener Deal -> neu"
+  },
+  {
+    "event_id": "evt_f_009",
+    "typ": "Formular",
+    "person": "neu: t.hansen@hansen-bau.de",
+    "firma": "neu: Hansen Bau GmbH",
+    "deal": "Neuer Deal Hansen Bau GmbH (Vorschlag)",
+    "updates": {
+      "firma": {
+        "branche": "Bau",
+        "ausschreibungen_pro_jahr": 50
+      },
+      "deal": {
+        "sprint": "Sprint 47"
+      }
+    },
+    "status": "auto",
+    "grund": "unbekannt -> neue Firma; neue Person; neue Firma -> neuer Deal"
+  },
+  {
+    "event_id": "evt_c_009",
+    "typ": "Call",
+    "person": "-",
+    "firma": "-",
+    "deal": "-",
+    "updates": {},
+    "status": "pruefen",
+    "grund": "verbundene Nummer +49 151 2223344 unbekannt"
+  },
+  {
+    "event_id": "evt_c_010",
+    "typ": "Call",
+    "person": "Anna Keller",
+    "firma": "Müller IT GmbH",
+    "deal": "Müller IT – Pilot",
+    "updates": {},
+    "status": "auto",
+    "grund": "Person über Nummer; offener Deal"
+  }
+]

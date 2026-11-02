@@ -1,0 +1,30 @@
+{
+  "firmen": [
+    {"id": "F1", "name": "Müller IT GmbH",                  "domain": "mueller-it.de",       "status": "Lead"},
+    {"id": "F2", "name": "Müller IT-Systeme GmbH & Co. KG", "domain": "mueller-it.de",       "status": "Lead"},
+    {"id": "F3", "name": "Bau Schmidt GmbH",                "domain": "bauschmidt.de",       "status": "Kunde"},
+    {"id": "F4", "name": "Hoffmann Facility Services GmbH", "domain": "hoffmann-fs.de",      "status": "Lead"},
+    {"id": "F5", "name": "Weber Elektrotechnik AG",         "domain": "weber-elektro.de",    "status": "Lead"},
+    {"id": "F6", "name": "Kraus Tiefbau GmbH",              "domain": "kraus-tiefbau.de",    "status": "Lead"},
+    {"id": "F7", "name": "Nordlicht Gebäudetechnik GmbH",   "domain": "nordlicht-gt.de",     "status": "Lead"},
+    {"id": "F8", "name": "Becker Reinigung GmbH",           "domain": "becker-reinigung.de", "status": "Lead"}
+  ],
+  "personen": [
+    {"id": "P1",  "name": "Anna Keller",     "mail": "anna.keller@mueller-it.de",     "telefon": "+49 89 1234501",  "firma_id": "F1"},
+    {"id": "P2",  "name": "Jonas Brandt",    "mail": "j.brandt@mueller-it.de",        "telefon": "+49 89 1234602",  "firma_id": "F2"},
+    {"id": "P3",  "name": "Petra Schmidt",   "mail": "petra.schmidt@bauschmidt.de",   "telefon": "+49 30 5550101",  "firma_id": "F3"},
+    {"id": "P4",  "name": "Lars Vogel",      "mail": "l.vogel@bauschmidt.de",         "telefon": "+49 30 5550102",  "firma_id": "F3"},
+    {"id": "P5",  "name": "Miriam Hoffmann", "mail": "m.hoffmann@hoffmann-fs.de",     "telefon": "+49 40 7770101",  "firma_id": "F4"},
+    {"id": "P6",  "name": "Tobias Weber",    "mail": "tobias.weber@weber-elektro.de", "telefon": "+49 711 880101",  "firma_id": "F5"},
+    {"id": "P7",  "name": "Sarah Lindner",   "mail": "s.lindner@weber-elektro.de",    "telefon": "+49 711 880102",  "firma_id": "F5"},
+    {"id": "P8",  "name": "Felix Kraus",     "mail": "felix@kraus-tiefbau.de",        "telefon": "+49 221 440101",  "firma_id": "F6"},
+    {"id": "P9",  "name": "Nina Berg",       "mail": "nina.berg@nordlicht-gt.de",     "telefon": "+49 421 330101",  "firma_id": "F7"},
+    {"id": "P10", "name": "Deniz Aydin",     "mail": "d.aydin@becker-reinigung.de",   "telefon": "+49 69 220101",   "firma_id": "F8"}
+  ],
+  "deals": [
+    {"id": "D1", "name": "Müller IT – Pilot",            "firma_id": "F1", "phase": "Demo gebucht",  "offen": true},
+    {"id": "D2", "name": "Hoffmann FS – Rollout Nord",   "firma_id": "F4", "phase": "Qualifiziert",  "offen": true},
+    {"id": "D3", "name": "Weber Elektro – Testphase",    "firma_id": "F5", "phase": "Angebot",       "offen": true},
+    {"id": "D4", "name": "Nordlicht – Ausschreibungsteam","firma_id": "F7", "phase": "Demo gebucht", "offen": true}
+  ]
+}

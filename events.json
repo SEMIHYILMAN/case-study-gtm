@@ -1,0 +1,562 @@
+[
+  {
+    "event_id": "evt_f_001",
+    "source": "fillout",
+    "event": "form.submission",
+    "formId": "patterno-demo-buchung",
+    "submission": {
+      "submissionId": "sub_001",
+      "submissionTime": "2026-11-02T08:01:00Z",
+      "questions": [
+        {
+          "id": "q1",
+          "name": "E-Mail",
+          "type": "EmailInput",
+          "value": "anna.keller@mueller-it.de"
+        },
+        {
+          "id": "q2",
+          "name": "Firmenname",
+          "type": "ShortAnswer",
+          "value": "Müller IT GmbH"
+        },
+        {
+          "id": "q3",
+          "name": "Branche",
+          "type": "Dropdown",
+          "value": "IT-Dienstleistung"
+        },
+        {
+          "id": "q4",
+          "name": "Anzahl Ausschreibungen pro Jahr",
+          "type": "NumberInput",
+          "value": 40
+        },
+        {
+          "id": "q5",
+          "name": "Sprint",
+          "type": "Dropdown",
+          "value": "Sprint 46"
+        }
+      ]
+    }
+  },
+  {
+    "event_id": "evt_c_001",
+    "source": "cloudtalk",
+    "event": "call.ended",
+    "data": {
+      "call_id": "ct_001",
+      "ended_at": "2026-11-02T08:10:00Z",
+      "direction": "outbound",
+      "agent": "Semih Yilman",
+      "called_number": "+49 711 880101",
+      "connected_number": "+49 711 880101",
+      "note": "Tobias: Testphase läuft, Feedback Freitag."
+    }
+  },
+  {
+    "event_id": "evt_f_002",
+    "source": "fillout",
+    "event": "form.submission",
+    "formId": "patterno-demo-buchung",
+    "submission": {
+      "submissionId": "sub_002",
+      "submissionTime": "2026-11-02T08:15:00Z",
+      "questions": [
+        {
+          "id": "q1",
+          "name": "E-Mail",
+          "type": "EmailInput",
+          "value": "kontakt@mueller-it.de"
+        },
+        {
+          "id": "q2",
+          "name": "Firmenname",
+          "type": "ShortAnswer",
+          "value": "Müller IT"
+        },
+        {
+          "id": "q3",
+          "name": "Branche",
+          "type": "Dropdown",
+          "value": "IT-Dienstleistung"
+        },
+        {
+          "id": "q4",
+          "name": "Anzahl Ausschreibungen pro Jahr",
+          "type": "NumberInput",
+          "value": 25
+        },
+        {
+          "id": "q5",
+          "name": "Sprint",
+          "type": "Dropdown",
+          "value": "Sprint 47"
+        }
+      ]
+    }
+  },
+  {
+    "event_id": "evt_c_002",
+    "source": "cloudtalk",
+    "event": "call.ended",
+    "data": {
+      "call_id": "ct_002",
+      "ended_at": "2026-11-02T08:22:00Z",
+      "direction": "outbound",
+      "agent": "Semih Yilman",
+      "called_number": "+49 711 880101",
+      "connected_number": "+49 711 880102",
+      "note": "Weiterverbunden an Sarah (Einkauf), will Angebot sehen."
+    }
+  },
+  {
+    "event_id": "evt_f_003",
+    "source": "fillout",
+    "event": "form.submission",
+    "formId": "patterno-demo-buchung",
+    "submission": {
+      "submissionId": "sub_003",
+      "submissionTime": "2026-11-02T08:30:00Z",
+      "questions": [
+        {
+          "id": "q1",
+          "name": "E-Mail",
+          "type": "EmailInput",
+          "value": "m.hoffmann@hoffmann-fs.de"
+        },
+        {
+          "id": "q2",
+          "name": "Firmenname",
+          "type": "ShortAnswer",
+          "value": "Hoffmann Facility Services"
+        },
+        {
+          "id": "q3",
+          "name": "Branche",
+          "type": "Dropdown",
+          "value": "Facility Management"
+        },
+        {
+          "id": "q4",
+          "name": "Anzahl Ausschreibungen pro Jahr",
+          "type": "NumberInput",
+          "value": 120
+        },
+        {
+          "id": "q5",
+          "name": "Sprint",
+          "type": "Dropdown",
+          "value": "Sprint 46"
+        }
+      ]
+    }
+  },
+  {
+    "event_id": "evt_c_003",
+    "source": "cloudtalk",
+    "event": "call.ended",
+    "data": {
+      "call_id": "ct_003",
+      "ended_at": "2026-11-02T08:41:00Z",
+      "direction": "outbound",
+      "agent": "Semih Yilman",
+      "called_number": "+49 89 1234501",
+      "connected_number": "+49 89 1234602",
+      "note": "Anna nicht da, Kollege Jonas übernimmt – andere Gesellschaft."
+    }
+  },
+  {
+    "event_id": "evt_f_004",
+    "source": "fillout",
+    "event": "form.submission",
+    "formId": "patterno-demo-buchung",
+    "submission": {
+      "submissionId": "sub_004",
+      "submissionTime": "2026-11-02T08:55:00Z",
+      "questions": [
+        {
+          "id": "q1",
+          "name": "E-Mail",
+          "type": "EmailInput",
+          "value": "k.otto@weber-elektro.de"
+        },
+        {
+          "id": "q2",
+          "name": "Firmenname",
+          "type": "ShortAnswer",
+          "value": "Weber Elektrotechnik AG"
+        },
+        {
+          "id": "q3",
+          "name": "Branche",
+          "type": "Dropdown",
+          "value": "Elektrotechnik"
+        },
+        {
+          "id": "q4",
+          "name": "Anzahl Ausschreibungen pro Jahr",
+          "type": "NumberInput",
+          "value": 60
+        },
+        {
+          "id": "q5",
+          "name": "Sprint",
+          "type": "Dropdown",
+          "value": "Sprint 47"
+        }
+      ]
+    }
+  },
+  {
+    "event_id": "evt_c_004",
+    "source": "cloudtalk",
+    "event": "call.ended",
+    "data": {
+      "call_id": "ct_004",
+      "ended_at": "2026-11-02T09:05:00Z",
+      "direction": "outbound",
+      "agent": "Semih Yilman",
+      "called_number": "+49 30 5550101",
+      "connected_number": "+49 30 5550102",
+      "note": "Petra verbindet zu Lars, zweites Team soll Patterno auch nutzen."
+    }
+  },
+  {
+    "event_id": "evt_f_005",
+    "source": "fillout",
+    "event": "form.submission",
+    "formId": "patterno-demo-buchung",
+    "submission": {
+      "submissionId": "sub_005",
+      "submissionTime": "2026-11-02T09:12:00Z",
+      "questions": [
+        {
+          "id": "q1",
+          "name": "E-Mail",
+          "type": "EmailInput",
+          "value": "petra.schmidt@bauschmidt.de"
+        },
+        {
+          "id": "q2",
+          "name": "Firmenname",
+          "type": "ShortAnswer",
+          "value": "Bau Schmidt GmbH"
+        },
+        {
+          "id": "q3",
+          "name": "Branche",
+          "type": "Dropdown",
+          "value": "Bau"
+        },
+        {
+          "id": "q4",
+          "name": "Anzahl Ausschreibungen pro Jahr",
+          "type": "NumberInput",
+          "value": 200
+        },
+        {
+          "id": "q5",
+          "name": "Sprint",
+          "type": "Dropdown",
+          "value": "Sprint 48"
+        }
+      ]
+    }
+  },
+  {
+    "event_id": "evt_c_005",
+    "source": "cloudtalk",
+    "event": "call.ended",
+    "data": {
+      "call_id": "ct_005",
+      "ended_at": "2026-11-02T09:20:00Z",
+      "direction": "outbound",
+      "agent": "Semih Yilman",
+      "called_number": "+49 40 7770101",
+      "connected_number": "+49 40 7770101",
+      "note": "Miriam bestätigt Demo-Termin."
+    }
+  },
+  {
+    "event_id": "evt_f_006",
+    "source": "fillout",
+    "event": "form.submission",
+    "formId": "patterno-demo-buchung",
+    "submission": {
+      "submissionId": "sub_006",
+      "submissionTime": "2026-11-02T09:31:00Z",
+      "questions": [
+        {
+          "id": "q1",
+          "name": "E-Mail",
+          "type": "EmailInput",
+          "value": "felix.kraus84@gmail.com"
+        },
+        {
+          "id": "q2",
+          "name": "Firmenname",
+          "type": "ShortAnswer",
+          "value": "Kraus Tiefbau GmbH"
+        },
+        {
+          "id": "q3",
+          "name": "Branche",
+          "type": "Dropdown",
+          "value": "Tiefbau"
+        },
+        {
+          "id": "q4",
+          "name": "Anzahl Ausschreibungen pro Jahr",
+          "type": "NumberInput",
+          "value": 35
+        },
+        {
+          "id": "q5",
+          "name": "Sprint",
+          "type": "Dropdown",
+          "value": "Sprint 47"
+        }
+      ]
+    }
+  },
+  {
+    "event_id": "evt_c_006",
+    "source": "cloudtalk",
+    "event": "call.ended",
+    "data": {
+      "call_id": "ct_006",
+      "ended_at": "2026-11-02T09:40:00Z",
+      "direction": "outbound",
+      "agent": "Semih Yilman",
+      "called_number": "+49 221 440101",
+      "connected_number": "+49 221 440101",
+      "note": "Felix hat Formular privat ausgefüllt, Interesse bestätigt."
+    }
+  },
+  {
+    "event_id": "evt_f_007",
+    "source": "fillout",
+    "event": "form.submission",
+    "formId": "patterno-demo-buchung",
+    "submission": {
+      "submissionId": "sub_007",
+      "submissionTime": "2026-11-02T09:48:00Z",
+      "questions": [
+        {
+          "id": "q1",
+          "name": "E-Mail",
+          "type": "EmailInput",
+          "value": "nina.berg@nordlicht-gt.de"
+        },
+        {
+          "id": "q2",
+          "name": "Firmenname",
+          "type": "ShortAnswer",
+          "value": "Nordlicht Gebäudetechnik"
+        },
+        {
+          "id": "q3",
+          "name": "Branche",
+          "type": "Dropdown",
+          "value": "Gebäudetechnik"
+        },
+        {
+          "id": "q4",
+          "name": "Anzahl Ausschreibungen pro Jahr",
+          "type": "NumberInput",
+          "value": 80
+        },
+        {
+          "id": "q5",
+          "name": "Sprint",
+          "type": "Dropdown",
+          "value": "Sprint 46"
+        }
+      ]
+    }
+  },
+  {
+    "event_id": "evt_f_007",
+    "source": "fillout",
+    "event": "form.submission",
+    "formId": "patterno-demo-buchung",
+    "submission": {
+      "submissionId": "sub_007",
+      "submissionTime": "2026-11-02T09:48:02Z",
+      "questions": [
+        {
+          "id": "q1",
+          "name": "E-Mail",
+          "type": "EmailInput",
+          "value": "nina.berg@nordlicht-gt.de"
+        },
+        {
+          "id": "q2",
+          "name": "Firmenname",
+          "type": "ShortAnswer",
+          "value": "Nordlicht Gebäudetechnik"
+        },
+        {
+          "id": "q3",
+          "name": "Branche",
+          "type": "Dropdown",
+          "value": "Gebäudetechnik"
+        },
+        {
+          "id": "q4",
+          "name": "Anzahl Ausschreibungen pro Jahr",
+          "type": "NumberInput",
+          "value": 80
+        },
+        {
+          "id": "q5",
+          "name": "Sprint",
+          "type": "Dropdown",
+          "value": "Sprint 46"
+        }
+      ]
+    }
+  },
+  {
+    "event_id": "evt_c_007",
+    "source": "cloudtalk",
+    "event": "call.ended",
+    "data": {
+      "call_id": "ct_007",
+      "ended_at": "2026-11-02T10:02:00Z",
+      "direction": "outbound",
+      "agent": "Semih Yilman",
+      "called_number": "+49 421 330101",
+      "connected_number": "+49 421 330101",
+      "note": "Nina: Formular doppelt abgeschickt, alles okay."
+    }
+  },
+  {
+    "event_id": "evt_f_008",
+    "source": "fillout",
+    "event": "form.submission",
+    "formId": "patterno-demo-buchung",
+    "submission": {
+      "submissionId": "sub_008",
+      "submissionTime": "2026-11-02T10:10:00Z",
+      "questions": [
+        {
+          "id": "q1",
+          "name": "E-Mail",
+          "type": "EmailInput",
+          "value": "d.aydin@becker-reinigung.de"
+        },
+        {
+          "id": "q2",
+          "name": "Firmenname",
+          "type": "ShortAnswer",
+          "value": "Becker Reinigung"
+        },
+        {
+          "id": "q3",
+          "name": "Branche",
+          "type": "Dropdown",
+          "value": "Gebäudereinigung"
+        },
+        {
+          "id": "q4",
+          "name": "Anzahl Ausschreibungen pro Jahr",
+          "type": "NumberInput",
+          "value": 15
+        },
+        {
+          "id": "q5",
+          "name": "Sprint",
+          "type": "Dropdown",
+          "value": "Sprint 48"
+        }
+      ]
+    }
+  },
+  {
+    "event_id": "evt_c_008",
+    "source": "cloudtalk",
+    "event": "call.ended",
+    "data": {
+      "call_id": "ct_008",
+      "ended_at": "2026-11-02T10:18:00Z",
+      "direction": "outbound",
+      "agent": "Semih Yilman",
+      "called_number": "069 220101",
+      "connected_number": "069 220101",
+      "note": "Deniz will Demo mit Geschäftsführung."
+    }
+  },
+  {
+    "event_id": "evt_f_009",
+    "source": "fillout",
+    "event": "form.submission",
+    "formId": "patterno-demo-buchung",
+    "submission": {
+      "submissionId": "sub_009",
+      "submissionTime": "2026-11-02T10:25:00Z",
+      "questions": [
+        {
+          "id": "q1",
+          "name": "E-Mail",
+          "type": "EmailInput",
+          "value": "t.hansen@hansen-bau.de"
+        },
+        {
+          "id": "q2",
+          "name": "Firmenname",
+          "type": "ShortAnswer",
+          "value": "Hansen Bau GmbH"
+        },
+        {
+          "id": "q3",
+          "name": "Branche",
+          "type": "Dropdown",
+          "value": "Bau"
+        },
+        {
+          "id": "q4",
+          "name": "Anzahl Ausschreibungen pro Jahr",
+          "type": "NumberInput",
+          "value": 50
+        },
+        {
+          "id": "q5",
+          "name": "Sprint",
+          "type": "Dropdown",
+          "value": "Sprint 47"
+        }
+      ]
+    }
+  },
+  {
+    "event_id": "evt_c_009",
+    "source": "cloudtalk",
+    "event": "call.ended",
+    "data": {
+      "call_id": "ct_009",
+      "ended_at": "2026-11-02T10:33:00Z",
+      "direction": "inbound",
+      "agent": "Semih Yilman",
+      "called_number": "+49 30 9990000",
+      "connected_number": "+49 151 2223344",
+      "note": "Rückruf, Anrufer nennt nur 'Herr Müller'."
+    }
+  },
+  {
+    "event_id": "evt_c_010",
+    "source": "cloudtalk",
+    "event": "call.ended",
+    "data": {
+      "call_id": "ct_010",
+      "ended_at": "2026-11-02T10:40:00Z",
+      "direction": "outbound",
+      "agent": "Semih Yilman",
+      "called_number": "+49 89 1234501",
+      "connected_number": "+49 89 1234501",
+      "note": "Anna: Pilot-Kickoff abgestimmt."
+    }
+  }
+]
